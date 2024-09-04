@@ -1,0 +1,203 @@
+.corpoSobre{
+    width: 100vw;
+    min-height: 100vh;
+    padding: 40px;
+    background: rgb(58,58,58);
+    background: linear-gradient(223deg, rgba(58,58,58,1) 0%, rgba(10,17,19,1) 100%);
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow-x: hidden;
+}
+.ImagemEu{
+    position: absolute;
+    width: 220px;
+    filter:grayscale(1);
+    margin-top: -60px;
+}
+.boxPessoal{
+    position: relative;
+    border-radius: 25px;
+    height: 160px;
+    width: 450px;
+    background: rgb(13,93,211);
+    background: linear-gradient(223deg, rgba(13,93,211,1) 0%, rgba(11,211,255,1) 100%);
+}
+.InfosPessoais{
+   text-align: right;
+   padding: 25px;
+}
+
+.BtnIcon{
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.BtnIcon:hover{
+    opacity: 0.8;
+}
+
+.IconeBotao{
+    width: 16px;
+    color: rgb(13,93,211);
+}
+
+.IconeIcon{
+    width: 30px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.IconesHabilidades{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 15px 0;
+}
+.IconeHabilidade{
+    height: 60px;
+    width: 60px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 3px;
+    /* background: tan; */
+}
+
+.Habilidades{
+    padding: 20px;
+    width: 480px;
+}
+
+.DireitaSobre{
+    width: 500px;
+    border-radius: 25px;
+}
+.Barra{
+    width: 100%;
+    margin:5px 0;
+    height: 1px;
+    background: white;
+    border-radius: 10px;
+}
+
+.Categoria h3{
+    margin-top:15px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.Informacao{
+    /* margin-left:20px; */
+    padding: 5px 0px;
+    text-transform: uppercase;
+}
+
+.InfosPessoais h5{
+    font-size: 11px;
+}
+
+.Informacao h5{
+    
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.Informacao p{
+    font-size: 11px;
+    color: #9F9F9F;
+}
+
+@media screen and (max-width: 767px) {
+    .corpoSobre{
+        width: 100%;
+        min-height: 10vh;
+        overflow: hidden;
+        padding: 40px;
+        justify-content: center;
+        align-items: cefnter;
+    }
+    .ImagemEu{
+        margin-top: -19px;
+        width: 120px;
+    }
+    .boxPessoal{
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        border-radius: 25px;
+        height: 100px;
+        width: 320px;
+    }
+    .InfosPessoais{
+       text-align: right;
+       padding: 10px;
+    }
+    .InfosPessoais h5{
+        font-size: 11px;
+     }
+    
+    .BtnIcon{
+        height: 30px;
+        width: 30px;
+        border: none;
+    }
+    .IconeBotao{
+        width: 14px;
+    }
+    .IconesHabilidades{
+        width: 350px;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .Habilidades h2{
+        font-size: 20px;
+    }
+    .Habilidades{
+        margin-top: 5px;
+        text-align: center;
+        align-items: center;
+        padding: 0;
+        width: 96%;
+    }
+    .IconeIcon{
+        width: 25px;
+        height: 25px;
+    }
+    .IconeHabilidades{
+        margin: 4px 10px;
+    }
+    .IconeHabilidades p{
+        font-size: 10px;
+    }
+    
+        .DireitaSobre{
+            width: 98%;
+        }
+        .Barra{
+            height: 3px;
+        }
+
+        .Categoria h3{
+            font-size: 15px;
+            font-weight: 500;
+        }
+
+        .Informacao h5{
+            font-size: 11px;
+            font-weight: 500;
+        }
+
+        .Informacao p{
+            font-size: 8px;
+        }
+}
